@@ -155,7 +155,7 @@
         }
 
         .project-image {
-            height: 200px;
+            height: 160px;
             background-color: var(--gray);
         }
 
@@ -229,6 +229,12 @@
         }
 
         .imagen_presentacion {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+        }
+
+        .imagen_proyecto {
             border-radius: 10px;
             width: 100%;
             height: auto;
