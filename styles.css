@@ -196,7 +196,7 @@
         footer {
             background-color: var(--dark);
             color: white;
-            padding: 40px 0;
+            padding: 40px 0px;
             text-align: center;
         }
 
@@ -215,6 +215,8 @@
             transition: background-color 0.3s;
             display: flex; 
             gap: 10px;
+            width: 250px;
+            justify-content: center;
         }
 
         .social-links-boton:hover{
@@ -253,4 +255,12 @@
             .nav-links {
                 display: none;
             }
+
+            .social-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            
         }
