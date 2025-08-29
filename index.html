@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/Graphicloads-Seo-Services-Services-portfolio.256.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Mi Portafolio</div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Hola, soy <span style="color: var(--primary);">Jose Eduardo Gijon Mora</span></h1>
+            <p>Desarrollador Fullstack apasionado por la tecnologia y ciberseguridad, eleve su negocio con soluciones de calidad.</p>
+            <a href="#proyectos" class="btn">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un desarrollador fullstack con experiencia en HTML, CSS, JavaScript, php y frameworks de pila completa como laravel, tambien cuento con conocimientos solidos en sql, python, java, C++ y oracle cloud. Tambien cuento con habilidades en servicios en la nube de oracle. Me encanta resolver problemas con proactividad y un hambre de conocimiento diario, disfruto crear sitios web responsivos y funcionales que ofrezcan una excelente experiencia de usuario. Soy amante de las redes ya que ellas nos conectan con miles de personas a miles de kilometros de distancia sin ningun problema.</p>
+                    <p>Comence mi formacion profesional en el 2022 en el Instituto Tecnologico de la laguna, en la carrera de Ingenieria en Sistemas computacionales con especializacion en desarrollo de software. En julio de 2025 tuve la oportunidad de formar parte de la novena generacion de Oracle Next Education el cual me ayudo a crecer profesionalmente con diversos cursos enfocados a desarrollo personal, programacion, inteligencia artificial, frontend y backend, asi como en servicios en la nube de oracle cloud</p>
+                    <p>Cuando no estoy codificando, me gusta aprender nuevas tecnologías y nuevos temas que tecnologicos emergentes, escuchar musica y hacer ejercicio. Soy apacionado de la ciberseguridad defensiva y comence mi formacion en <span style="color: var(--primary);">ciberseguridad</span> con los cursos de certificacion de cisco para analistas de ciberseguridad.</p>
+                    <p>Estoy siempre abierto a nuevos desafíos y oportunidades para crecer profesionalmente.</p>
+                </div>
+                <div class="about-image">
+                    <img class="imagen_presentacion" src="assets/mi foto profesional xd.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción breve del proyecto y las tecnologías utilizadas.</p>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Proyecto 2</h3>
+                        <p>Descripción breve del proyecto y las tecnologías utilizadas.</p>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Proyecto 3</h3>
+                        <p>Descripción breve del proyecto y las tecnologías utilizadas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="title">Asunto</label>
+                        <input type="text" id="title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a class="social-links-boton" href="https://github.com/Gijonsin"> <img src="assets/github.png" alt=""> GitHub</a>
+                <a class="social-links-boton" href="https://www.linkedin.com/in/jose-eduardo-gijon-mora/"> <img src="assets/linkedin.png" alt=""> LinkedIn</a>
+                <a class="social-links-boton" href="#"> <img src="assets/instagram.png" alt=""> Instagram</a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
